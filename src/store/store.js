@@ -9,4 +9,5 @@ export const store = configureStore({
   middleware: (getDefaultMiddleware) =>
     getDefaultMiddleware().concat(taskManagerApi.middleware),
 });
+
 setupListeners(store.dispatch);

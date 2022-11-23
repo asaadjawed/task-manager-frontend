@@ -1,0 +1,30 @@
+.mainComponent {
+  height: 500px;
+  background-color: bisque;
+  width: 50%;
+  margin: 100px auto;
+}
+.todo-list{
+    text-align: center;
+    padding-top: 30px;
+}
+.input_field{
+    display: inline-block;
+}
+.input_field input {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.input_field input:hover{
+    border: none;
+}
+.input_field button {
+    padding: 10px;
+    color: white;
+    background-color: cornflowerblue;
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+}

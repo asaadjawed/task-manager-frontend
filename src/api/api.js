@@ -1,6 +1,7 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 
 
+
 export const taskManagerApi = createApi({
     reducerPath:"taskManager",
     baseQuery:fetchBaseQuery({baseUrl:'http://localhost:5001/api/v1'}),
@@ -11,4 +12,4 @@ export const taskManagerApi = createApi({
     })
 })
 
-export const {useGetAllTaskQuery}  = taskManagerApi
+export const {useGetAllTaskQuery}  =  taskManagerApi
